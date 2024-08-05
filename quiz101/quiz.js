@@ -2,29 +2,29 @@
 var questions = [
     {
         id: 1,
-    question: "They __________ the children into finishing their homework with the promise of ice cream.",
-    chinese_question: "他们通过承诺吃冰淇淋 __________ 孩子们完成作业。",
-    answers: [
-        { option: "A", answer: "forced", chinese_answer: "强迫", chinese_romanization: "qiǎngpò" },
-        { option: "B", answer: "cajoled", chinese_answer: "劝诱", chinese_romanization: "quànyòu" },
-        { option: "C", answer: "punished", chinese_answer: "惩罚", chinese_romanization: "chéngfá" },
-        { option: "D", answer: "ignored", chinese_answer: "忽视", chinese_romanization: "hūshì" }
-    ],
-    correctAnswer: "B",
-    explanation: "(B) 'cajoled' means to persuade someone to do something by sustained coaxing or flattery." +
-        "<br><br>" + 
-        "(A) 'forced' means to make someone do something against their will." +
-        "<br><br>" + 
-        "(C) 'punished' means to subject to a penalty for an offense or fault." +
-        "<br><br>" + 
-        "(D) 'ignored' means to refuse to take notice of or acknowledge.",
-    chinese_explanation: "(B) '劝诱' 意味着通过持续的劝说或奉承来让某人做某事。" +
-        "<br><br>" + 
-        "(A) '强迫' 意味着使某人违背意愿做某事。" +
-        "<br><br>" + 
-        "(C) '惩罚' 意味着因犯罪或过失而受到处罚。" +
-        "<br><br>" + 
-        "(D) '忽视' 意味着拒绝注意或承认。"
+        question: "They __________ the children into finishing their homework with the promise of ice cream.",
+        chinese_question: "他们通过承诺吃冰淇淋 __________ 孩子们完成作业。",
+        answers: [
+            { option: "A", answer: "forced", chinese_answer: "强迫", chinese_romanization: "qiǎngpò" },
+            { option: "B", answer: "punished", chinese_answer: "惩罚", chinese_romanization: "chéngfá" },
+            { option: "C", answer: "discouraged", chinese_answer: "劝阻", chinese_romanization: "quànzǔ" },
+            { option: "D", answer: "cajoled", chinese_answer: "劝诱", chinese_romanization: "quànyòu" }
+        ],
+        correctAnswer: "D",
+        explanation: "(D) 'cajoled' means to persuade someone to do something by sustained coaxing or flattery." +
+            "<br><br>" +
+            "(A) 'forced' means to make someone do something against their will." +
+            "<br><br>" +
+            "(B) 'punished' means to subject to a penalty for an offense or fault." +
+            "<br><br>" +
+            "(C) 'discouraged' means to dissuade someone from doing something." ,
+        chinese_explanation: "(D) '劝诱' 意味着通过持续的劝说或奉承来让某人做某事。" +
+            "<br><br>" +
+            "(A) '强迫' 意味着使某人违背意愿做某事。" +
+            "<br><br>" +
+            "(B) '惩罚' 意味着因犯罪或过失而受到处罚。" +
+            "<br><br>" +
+            "(C) '劝阻' 意味着劝说某人不要做某事。"
     },
     {
         id: 2,
@@ -106,29 +106,29 @@ var questions = [
     },
     {
         id: 5,
-    question: "The priest will __________ the sick with holy oil during the ceremony.",
-    chinese_question: "牧师将在仪式上用圣油 __________ 病人。",
-    answers: [
-        { option: "A", answer: "anoint", chinese_answer: "膏抹", chinese_romanization: "gāomǒ" },
-        { option: "B", answer: "wash", chinese_answer: "洗", chinese_romanization: "xǐ" },
-        { option: "C", answer: "cover", chinese_answer: "覆盖", chinese_romanization: "fùgài" },
-        { option: "D", answer: "ignore", chinese_answer: "忽视", chinese_romanization: "hūshì" }
-    ],
-    correctAnswer: "A",
-    explanation: "(A) 'anoint' means to smear or rub with oil, typically as part of a religious ceremony." +
-        "<br><br>" + 
-        "(B) 'wash' means to clean with water and, typically, soap or detergent." +
-        "<br><br>" + 
-        "(C) 'cover' means to put something on top of or in front of something else to protect or conceal it." +
-        "<br><br>" + 
-        "(D) 'ignore' means to refuse to take notice of or acknowledge.",
-    chinese_explanation: "(A) “膏抹” 意味着用油涂抹或擦拭，通常是宗教仪式的一部分。" +
-        "<br><br>" + 
-        "(B) '洗' 意味着用水和通常是肥皂或洗涤剂清洁。" +
-        "<br><br>" + 
-        "(C) '覆盖' 意味着把某物放在另一物之上或之前以保护或掩盖它。" +
-        "<br><br>" + 
-        "(D) '忽视' 意味着拒绝注意或承认。"
+        question: "The priest will __________ the sick with holy oil during the ceremony to bless and heal them.",
+        chinese_question: "牧师将在仪式上用圣油 __________ 病人，以祝福和治愈他们。",
+        answers: [
+            { option: "A", answer: "wash", chinese_answer: "洗", chinese_romanization: "xǐ" },
+            { option: "B", answer: "cover", chinese_answer: "覆盖", chinese_romanization: "fùgài" },
+            { option: "C", answer: "disregard", chinese_answer: "忽视", chinese_romanization: "hūshì" },
+            { option: "D", answer: "anoint", chinese_answer: "膏抹", chinese_romanization: "gāomǒ" }
+        ],
+        correctAnswer: "D",
+        explanation: "(D) 'anoint' means to smear or rub with oil, typically as part of a religious ceremony." +
+            "<br><br>" +
+            "(A) 'wash' means to clean with water and, typically, soap or detergent." +
+            "<br><br>" +
+            "(B) 'cover' means to put something on top of or in front of something else to protect or conceal it." +
+            "<br><br>" +
+            "(C) 'disregard' means to pay no attention to; ignore.",
+        chinese_explanation: "(D) “膏抹” 意味着用油涂抹或擦拭，通常是宗教仪式的一部分。" +
+            "<br><br>" +
+            "(A) '洗' 意味着用水和通常是肥皂或洗涤剂清洁。" +
+            "<br><br>" +
+            "(B) '覆盖' 意味着把某物放在另一物之上或之前以保护或掩盖它。" +
+            "<br><br>" +
+            "(C) '忽视' 意味着拒绝注意或承认。"
     },
     {
         id: 6,
@@ -158,29 +158,29 @@ var questions = [
     },
     {
         id: 7,
-    question: "The chef used a sharp knife to __________ the meat with precision.",
-    chinese_question: "厨师用锋利的刀精确地 __________ 肉。",
-    answers: [
-        { option: "A", answer: "cleave", chinese_answer: "切开", chinese_romanization: "qiēkāi" },
-        { option: "B", answer: "mend", chinese_answer: "修补", chinese_romanization: "xiūbǔ" },
-        { option: "C", answer: "ignore", chinese_answer: "忽视", chinese_romanization: "hūshì" },
-        { option: "D", answer: "smooth", chinese_answer: "抹平", chinese_romanization: "mǒpíng" }
-    ],
-    correctAnswer: "A",
-    explanation: "(A) 'cleave' means to split or sever something, especially along a natural line or grain." +
-        "<br><br>" + 
-        "(B) 'mend' means to repair something that is broken or damaged." +
-        "<br><br>" + 
-        "(C) 'ignore' means to refuse to take notice of or acknowledge." +
-        "<br><br>" + 
-        "(D) 'smooth' means to make something completely free from roughness or irregularities.",
-    chinese_explanation: "(A) '切开' 意味着劈开或分开某物，尤其是沿着天然线条或纹理。" +
-        "<br><br>" + 
-        "(B) '修补' 意味着修理破损或损坏的东西。" +
-        "<br><br>" + 
-        "(C) '忽视' 意味着拒绝注意或承认。" +
-        "<br><br>" + 
-        "(D) '抹平' 意味着使某物完全没有粗糙或不规则的地方。"
+        question: "The chef used a sharp knife to __________ the meat with precision.",
+        chinese_question: "厨师用锋利的刀精确地 __________ 肉。",
+        answers: [
+            { option: "A", answer: "mend", chinese_answer: "修补", chinese_romanization: "xiūbǔ" },
+            { option: "B", answer: "smooth", chinese_answer: "抹平", chinese_romanization: "mǒpíng" },
+            { option: "C", answer: "cleave", chinese_answer: "切开", chinese_romanization: "qiēkāi" },
+            { option: "D", answer: "unite", chinese_answer: "联合", chinese_romanization: "liánhé" }
+        ],
+        correctAnswer: "C",
+        explanation: "(C) 'cleave' means to split or sever something, especially along a natural line or grain." +
+            "<br><br>" + 
+            "(A) 'mend' means to repair something that is broken or damaged." +
+            "<br><br>" + 
+            "(B) 'smooth' means to make something completely free from roughness or irregularities." +
+            "<br><br>" + 
+            "(D) 'unite' means to bring together or combine into a single entity.",
+        chinese_explanation: "(C) '切开' 意味着劈开或分开某物，尤其是沿着天然线条或纹理。" +
+            "<br><br>" + 
+            "(A) '修补' 意味着修理破损或损坏的东西。" +
+            "<br><br>" + 
+            "(B) '抹平' 意味着使某物完全没有粗糙或不规则的地方。" +
+            "<br><br>" + 
+            "(D) '联合' 意味着合并或结合成一个整体。"
     },
     {
         id: 8,
@@ -210,29 +210,29 @@ var questions = [
     },
     {
         id: 9,
-    question: "They were __________ into buying a product that did not work as advertised.",
-    chinese_question: "他们被 __________ 购买了一款与广告描述不符的产品。",
-    answers: [
-        { option: "A", answer: "duped", chinese_answer: "欺骗", chinese_romanization: "qīpiàn" },
-        { option: "B", answer: "informed", chinese_answer: "通知", chinese_romanization: "tōngzhī" },
-        { option: "C", answer: "ignored", chinese_answer: "忽视", chinese_romanization: "hūshì" },
-        { option: "D", answer: "assisted", chinese_answer: "帮助", chinese_romanization: "bāngzhù" }
-    ],
-    correctAnswer: "A",
-    explanation: "(A) 'duped' means to be deceived or tricked, used figuratively here." +
-        "<br><br>" + 
-        "(B) 'informed' means to give someone facts or information." +
-        "<br><br>" + 
-        "(C) 'ignored' means to refuse to take notice of or acknowledge." +
-        "<br><br>" + 
-        "(D) 'assisted' means to help someone.",
-    chinese_explanation: "(A) '欺骗' 意味着被欺骗或捉弄，这里是比喻用法。" +
-        "<br><br>" + 
-        "(B) '通知' 意味着向某人提供事实或信息。" +
-        "<br><br>" + 
-        "(C) '忽视' 意味着拒绝注意或承认。" +
-        "<br><br>" + 
-        "(D) '帮助' 意味着帮助某人。"
+        question: "They were __________ into buying a product that did not work as advertised by a persuasive salesperson who exaggerated its benefits and downplayed its flaws.",
+        chinese_question: "他们被一个夸大产品好处和淡化缺点的推销员 __________ 购买了一款与广告描述不符的产品。",
+        answers: [
+            { option: "A", answer: "informed", chinese_answer: "通知", chinese_romanization: "tōngzhī" },
+            { option: "B", answer: "assisted", chinese_answer: "帮助", chinese_romanization: "bāngzhù" },
+            { option: "C", answer: "warned", chinese_answer: "警告", chinese_romanization: "jǐnggào" },
+            { option: "D", answer: "duped", chinese_answer: "欺骗", chinese_romanization: "qīpiàn" }
+        ],
+        correctAnswer: "D",
+        explanation: "(D) 'duped' means to be deceived or tricked, used figuratively here." +
+            "<br><br>" +
+            "(A) 'informed' means to give someone facts or information." +
+            "<br><br>" +
+            "(B) 'assisted' means to help someone." +
+            "<br><br>" +
+            "(C) 'warned' means to inform someone in advance of an impending or possible danger, problem, or other unpleasant situation.",
+        chinese_explanation: "(D) '欺骗' 意味着被欺骗或捉弄，这里是比喻用法。" +
+            "<br><br>" +
+            "(A) '通知' 意味着向某人提供事实或信息。" +
+            "<br><br>" +
+            "(B) '帮助' 意味着帮助某人。" +
+            "<br><br>" +
+            "(C) '警告' 意味着提前告知某人即将到来的或可能的危险、问题或其他不愉快的情况。"
     },
     {
         id: 10,
